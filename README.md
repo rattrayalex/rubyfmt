@@ -1,9 +1,15 @@
-# How do I pronounce `rubyfmt`
+# About `rubyfmt`
+
+`rubyfmt` is an auto-formatter for Ruby, written in Rust. It is similar in spirit to `gofmt`, `rustfmt`, and `prettier`.
+
+It is fast, mostly deterministic, and used in production on very large codebases (e.g., Stripe's).
+
+## How do I pronounce `rubyfmt`?
+
 * en: Ruby format
 * jp: ルビーフォーマット
 
-## How do I use it
-
+# Installation
 
 ### Install from `brew`
 
@@ -18,6 +24,10 @@ brew install rubyfmt
 1. Make sure you've got cargo installed
 2. Run `make all`
 3. Copy target/release/rubyfmt-main to somewhere on your path as `rubyfmt`
+
+# How do I use it?
+
+## Command-line usage
 
 Rubyfmt supports the following CLI invocations:
 
@@ -103,4 +113,4 @@ Ruby files are formatted on save or by pressing `Alt + ;` or on macOS: `Cmd + ;`
 
 ## Contributing
 
-Please checkout [our contributing guide](./CONTRIBUTING.md)
+Please check out [our contributing guide](./CONTRIBUTING.md)
